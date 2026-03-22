@@ -3,7 +3,6 @@ from pydantic import BaseModel, Field
 from typing import Optional
 
 app = FastAPI()
-
 # Product Data
 products = [
     {"id": 1, "name": "Wireless Mouse", "price": 499, "category": "Electronics", "in_stock": True},
